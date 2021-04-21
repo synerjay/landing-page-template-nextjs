@@ -8,7 +8,10 @@ export default function Home() {
   // in React a component MUST have a single FRAGMENT. it cannot have TWO elements side by side each other
   return (
     <>
-      <Head></Head>
+      <Head>
+        <title>Ninja List | Home</title>
+        <meta name='keywords' content='ninjas' />
+      </Head>
       <div>
         <h1 className={styles.title}>Homepage</h1>
         <p className={styles.text}>
