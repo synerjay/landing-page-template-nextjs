@@ -1,3 +1,7 @@
+// The purpose of the getStaticPaths is to let Next.js know how many dynamic pages are needed for the api
+// Next.js will run the getStaticPaths and then will run the getStaticProps to inject the information into the Details props
+// We need two of these to build dynamic pages in Next based on the REST API
+
 export const getStaticPaths = async () => {
   const res = await fetch('https://reqres.in/api/users');
   const api = await res.json();
