@@ -14,10 +14,24 @@ export const getStaticPaths = async () => {
   };
 };
 
-const Details = () => {
+export const getStaticProps = async (context) => {
+  const id = context.params.id;
+  const res = await fetch('https://reqres.in/api/users/' + id);
+  const api = await res.json();
+
+  return {
+    props: { ninja: api.data },
+  };
+};
+
+const Details = ({ ninja }) => {
   return (
     <div>
-      <h1>Details Page</h1>
+      <h1>
+        {ninja.first_name} {ninja.last_name}
+      </h1>
+      <p>{ninja.email}</p>
+      <p>{ninja.avatar}</p>
     </div>
   );
 };
