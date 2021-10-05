@@ -35,7 +35,7 @@ const Details = ({ ninja }) => {
         {ninja.first_name} {ninja.last_name}
       </h1>
       <p>{ninja.email}</p>
-      <p>{ninja.avatar}</p>
+      <img src={ninja.avatar} />
     </div>
   );
 };

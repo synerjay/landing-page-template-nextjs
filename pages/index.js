@@ -26,7 +26,7 @@ export default function Home() {
           quibusdam sapiente deleniti facilis nemo tenetur repellat doloribus
           natus, odio, sequi quae pariatur.
         </p>
-        <Link href='Ninjas'>
+        <Link href='ninjas'>
           <a className={styles.btn}>See ninja listing</a>
         </Link>
       </div>
