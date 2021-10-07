@@ -11,8 +11,8 @@ export const getStaticProps = async () => {
 };
 
 const Ninjas = ({ ninjas }) => {
-  console.log('THE API IS BELOW!');
-  console.log(ninjas);
+  // console.log('THE API IS BELOW!');
+  // console.log(ninjas);
 
   return (
     <div>
