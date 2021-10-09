@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Services from '../comps/Cards';
+import Feature from '../comps/Feature';
 import Footer from '../comps/Footer';
 import Header from '../comps/Header';
 import Hero from '../comps/Hero';
@@ -16,7 +17,7 @@ export default function Home() {
       <Hero />
       {/* Feature pictures */}
       <section class=''>
-        <div class='container mx-auto flex px-10 py-8 items-center justify-center flex-col'>
+        <div class='container mx-auto flex px-10 py-4 items-center justify-center flex-col'>
           <img
             class='lg:w-15/15 md:w-15/5 w-20/6 mb-10 object-cover object-center rounded'
             alt='hero'
@@ -26,6 +27,7 @@ export default function Home() {
       </section>
       {/* Put cards here */}
       <Services />
+      <Feature />
     </Layout>
   );
 }
