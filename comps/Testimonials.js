@@ -2,8 +2,8 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div class='min-w-screen min-h-screen bg-gray-50 flex items-center justify-center py-5'>
-      <div class='w-full bg-white border-t border-b border-gray-200 px-5 py-16 md:py-24 text-gray-800'>
+    <div class='min-w-screen min-h-screen flex items-center justify-center py-5'>
+      <div class='w-full px-5 py-16 md:py-24 text-gray-800'>
         <div class='w-full max-w-6xl mx-auto'>
           <div class='text-center max-w-xl mx-auto'>
             <h1 class='text-6xl md:text-7xl font-bold mb-5 text-gray-600'>
@@ -14,11 +14,11 @@ const Testimonials = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h3>
             <div class='text-center mb-10'>
-              <span class='inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1'></span>
-              <span class='inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1'></span>
-              <span class='inline-block w-40 h-1 rounded-full bg-indigo-500'></span>
-              <span class='inline-block w-3 h-1 rounded-full bg-indigo-500 ml-1'></span>
-              <span class='inline-block w-1 h-1 rounded-full bg-indigo-500 ml-1'></span>
+              <span class='inline-block w-1 h-1 rounded-full bg-gray-800 ml-1'></span>
+              <span class='inline-block w-3 h-1 rounded-full bg-gray-800 ml-1'></span>
+              <span class='inline-block w-40 h-1 rounded-full bg-gray-800'></span>
+              <span class='inline-block w-3 h-1 rounded-full bg-gray-800 ml-1'></span>
+              <span class='inline-block w-1 h-1 rounded-full bg-gray-800 ml-1'></span>
             </div>
           </div>
           <div class='-mx-3 md:flex items-start'>
@@ -42,7 +42,12 @@ const Testimonials = () => {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quos sunt ratione dolor exercitationem minima quas itaque
                     saepe quasi architecto vel! Accusantium, vero sint
-                    recusandae cum tempora nemo commodi soluta deleniti.
+                    recusandae cum tempora nemo commodi soluta deleniti. Lorem
+                    ipsum dolor sit, amet consectetur adipisicing elit. Odio
+                    necessitatibus nobis sint veritatis porro. Tenetur incidunt
+                    optio iure, atque deleniti dolorem, quo dignissimos
+                    laudantium perferendis rem aspernatur. Explicabo, eaque
+                    assumenda.
                     <span class='text-lg leading-none italic font-bold text-gray-400 ml-1'>
                       "
                     </span>
