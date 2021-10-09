@@ -2,6 +2,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import Footer from '../comps/Footer';
 import Header from '../comps/Header';
+import Hero from '../comps/Hero';
 import Layout from '../comps/Layout';
 import Navbar from '../comps/Navbar';
 import styles from '../styles/Home.module.css';
@@ -11,7 +12,7 @@ export default function Home() {
   return (
     <Layout pageTitle='Product Landing Page'>
       <Header />
-      <h2>Hello</h2>
+      <Hero />
     </Layout>
   );
 }
