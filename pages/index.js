@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Services from '../comps/Cards';
 import Footer from '../comps/Footer';
 import Header from '../comps/Header';
 import Hero from '../comps/Hero';
@@ -13,6 +14,18 @@ export default function Home() {
     <Layout pageTitle='Product Landing Page'>
       <Header />
       <Hero />
+      {/* Feature pictures */}
+      <section class=''>
+        <div class='container mx-auto flex px-10 py-8 items-center justify-center flex-col'>
+          <img
+            class='lg:w-15/15 md:w-15/5 w-20/6 mb-10 object-cover object-center rounded'
+            alt='hero'
+            src=' https://dummyimage.com/1000x600/edf2f7/0f1631'
+          />
+        </div>
+      </section>
+      {/* Put cards here */}
+      <Services />
     </Layout>
   );
 }
