@@ -6,7 +6,7 @@ const Hero = () => {
       <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
         <div className='text-center lg:w-2/3 w-full'>
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium	 text-black font-mono'>
-            This is your super duper title.{' '}
+            Hero Title Here Blah Blah blah{' '}
           </h1>
           <p className='leading-relaxed mb-8 font-normal'>
             The University of Huddersfield's School of Art, Design and
