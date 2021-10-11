@@ -16,8 +16,8 @@ const Services = () => {
     },
   ];
   return (
-    <section className=''>
-      <div className='container px-5 py-24 mx-auto flex flex-wrap'>
+    <section className='bg-gray-600'>
+      <div className='container px-24 py-24 mx-auto flex flex-wrap'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h2 className='text-xs text-black tracking-widest font-medium title-font mb-1'>
             THIS IS A USEFUL SMALL TEXT

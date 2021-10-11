@@ -15,7 +15,7 @@ const Layout = (props) => {
           href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css'
         />
       </Head>
-      <div className='px-20'>{props.children}</div>
+      <div>{props.children}</div>
     </div>
   );
 };
