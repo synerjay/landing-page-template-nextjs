@@ -30,6 +30,7 @@ export default function Home() {
       <Services />
       <Feature />
       <Testimonials />
+      <Footer />
     </Layout>
   );
 }
