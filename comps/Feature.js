@@ -20,7 +20,7 @@ const FeatureBox = (props) => {
                 </h1>
                 <p class='mb-8 leading-relaxed'>{feature.desc}</p>
                 <div class='flex justify-center'>
-                  <button class='border-2 border-black  text-black block rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
+                  <button class='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
                     Button
                   </button>
                 </div>
@@ -36,7 +36,7 @@ const FeatureBox = (props) => {
                 </h1>
                 <p class='mb-8 leading-relaxed'>{feature.desc}</p>
                 <div class='flex justify-center'>
-                  <button class='border-2 border-black  text-black block rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
+                  <button class='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
                     Button
                   </button>
                 </div>

@@ -14,7 +14,7 @@ const Hero = () => {
             design graduates in this school show for Virtual Design Festival.
           </p>
           <div class='flex justify-center'>
-            <button class='border-2 border-black  text-black block rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-gray-900 hover:text-pink-500 transition ease-in-out duration-700'>
+            <button class='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-gray-900 hover:text-pink-500 transition ease-in-out duration-700'>
               Show me
             </button>
           </div>
