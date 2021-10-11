@@ -17,10 +17,10 @@ export default function Home() {
       <Header />
       <Hero />
       {/* Feature pictures */}
-      <section class=''>
-        <div class='container mx-auto flex px-10 py-4 items-center justify-center flex-col'>
+      <section className=''>
+        <div className='container mx-auto flex px-10 py-4 items-center justify-center flex-col'>
           <img
-            class='lg:w-15/15 md:w-15/5 w-20/6 mb-10 object-cover object-center rounded'
+            className='lg:w-15/15 md:w-15/5 w-20/6 mb-10 object-cover object-center rounded'
             alt='hero'
             src=' https://dummyimage.com/1000x600/edf2f7/0f1631'
           />
