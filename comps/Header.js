@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 const Header = () => {
+  const [sticky, setSticky] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
+
+  const handleScroll = () => {
+    if (window.scrollY > 90) {
+      setSticky(true);
+    } else if (window.scrollY < 90) {
+      setSticky(false);
+    }
+  };
+
   return (
-    <header className='text-gray-700'>
-      <div className='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-center'>
+    <header className={`header${sticky ? ' sticky' : ''}`}>
+      <div className='container mx-auto flex text-gray-700 flex-wrap p-5 flex-col md:flex-row items-center justify-center'>
         <a
           href='#'
           className='logo flex title-font font-medium items-center text-black mb-4 md:mb-0'
