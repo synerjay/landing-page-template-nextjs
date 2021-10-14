@@ -3,6 +3,7 @@ import Link from 'next/link';
 import Services from '../comps/Cards';
 import Feature from '../comps/Feature';
 import Footer from '../comps/Footer';
+import GlassCard from '../comps/GlassCard';
 import Header from '../comps/Header';
 import Hero from '../comps/Hero';
 import Layout from '../comps/Layout';
@@ -30,6 +31,7 @@ export default function Home() {
       </section>
       {/* Put cards here */}
       <Services />
+      <GlassCard />
       <Feature />
       <Testimonials />
       <Footer />
