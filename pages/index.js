@@ -138,7 +138,7 @@ export default function Home() {
       </div>
       {/* Put cards here */}
       <Services />
-      <GlassCard />
+      {/* <GlassCard /> */}
       <Feature />
       <Testimonials />
       <Footer />
