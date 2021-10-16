@@ -15,7 +15,7 @@ export default function Home() {
   // in React a component MUST have a single FRAGMENT. it cannot have TWO elements side by side each other
   return (
     <Layout pageTitle='Product Landing Page'>
-      <div className='topSection relative'>
+      <div className='topSection'>
         <Header />
         <Hero />
       </div>
@@ -29,7 +29,7 @@ export default function Home() {
           />
         </div>
       </section> */}
-      <div className='GlassDiv flex absolute  z-50 flex-col lg:flex-row bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 rounded-xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6'>
+      <div className='GlassDiv flex absolute z-50 flex-col lg:flex-row bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 rounded-xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6'>
         <div className='flex-1 p-4 lg:p-6'>
           <div className='text-lg text-white mb-8 flex items-center'>
             <svg
