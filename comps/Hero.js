@@ -8,7 +8,7 @@ const Hero = () => {
           <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium	 text-black font-mono'>
             Here's to the Crazy Ones{' '}
           </h1>
-          <p className='leading-relaxed mb-8 font-normal'>
+          <p className='px-20 leading-relaxed mb-8 font-normal'>
             Innovation distinguishes between a leader and a follower. Design is
             not just what it looks like and feels like. Design is how it works.
           </p>
