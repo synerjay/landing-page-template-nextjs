@@ -22,14 +22,14 @@ const Header = () => {
           href='#'
           className='logo flex title-font font-medium items-center text-black mb-4 md:mb-0'
         >
-          Logo
+          Company
         </a>
         <nav className='md:my-auto md:mx-48  flex flex-wrap items-center text-base justify-center'>
-          <a className='mr-5 hover:text-black font-semibold'> Link</a>
-          <a className='mr-5 hover:text-black font-semibold'> Link</a>
-          <a className='mr-5 hover:text-black font-semibold'> Link</a>
-          <a className='mr-5 hover:text-black font-semibold'> Link</a>
-          <a className='mr-5 hover:text-black font-semibold'> Link</a>
+          <a className='mr-5 hover:text-black font-semibold'> Documentation</a>
+          <a className='mr-5 hover:text-black font-semibold'> Pricing</a>
+          <a className='mr-5 hover:text-black font-semibold'> Sign up</a>
+          <a className='mr-5 hover:text-black font-semibold'> Sign in</a>
+          {/* <a className='mr-5 hover:text-black font-semibold'> Link</a> */}
         </nav>
         <a href='#' rel='noopener' target='_blank'>
           <button className='border-2 border-black  text-black  rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700 md:mt-0'>
