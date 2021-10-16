@@ -24,11 +24,23 @@ const Header = () => {
         >
           Company
         </a>
-        <div className='md:my-auto md:mx-0 flex flex-wrap items-center text-base justify-end'>
-          <a className='mr-5 hover:text-black font-semibold'> Documentation</a>
-          <a className='mr-5 hover:text-black font-semibold'> Pricing</a>
-          <a className='mr-5 hover:text-black font-semibold'> Sign up</a>
-          <a className='mr-5 hover:text-black font-semibold'> Sign in</a>
+        <div className='md:my-auto md:mx-0 flex flex-wrap items-center justify-end'>
+          <a href='#' className='mr-5 hover:text-black font-semibold'>
+            {' '}
+            Documentation
+          </a>
+          <a href='#' className='mr-5 hover:text-black font-semibold'>
+            {' '}
+            Pricing
+          </a>
+          <a href='#' className='mr-5 hover:text-black font-semibold'>
+            {' '}
+            Sign up
+          </a>
+          <a href='#' className='mr-5 hover:text-black font-semibold'>
+            {' '}
+            Sign in
+          </a>
         </div>
       </div>
     </header>
