@@ -29,13 +29,7 @@ const Header = () => {
           <a className='mr-5 hover:text-black font-semibold'> Pricing</a>
           <a className='mr-5 hover:text-black font-semibold'> Sign up</a>
           <a className='mr-5 hover:text-black font-semibold'> Sign in</a>
-          {/* <a className='mr-5 hover:text-black font-semibold'> Link</a> */}
         </div>
-        {/* <a href='#' rel='noopener' target='_blank'>
-          <button className='border-2 border-black  text-black  rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700 md:mt-0'>
-            See Plans
-          </button>
-        </a> */}
       </div>
     </header>
   );
