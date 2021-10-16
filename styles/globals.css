@@ -38,6 +38,10 @@ body {
   }
 }
 
+.GlassDiv {
+  top: 450px;
+}
+
 a {
   color: #333;
   text-decoration: none;
