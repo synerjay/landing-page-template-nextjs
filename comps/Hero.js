@@ -14,7 +14,7 @@ const Hero = () => {
           </p>
           <div className='flex justify-center'>
             <button className='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-gray-900 hover:text-pink-500 transition ease-in-out duration-700'>
-              Show me
+              Make this my Landing Page
             </button>
           </div>
         </div>

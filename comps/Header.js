@@ -17,7 +17,7 @@ const Header = () => {
 
   return (
     <header className={`header${sticky ? ' sticky' : ''}`}>
-      <div className='container mx-auto flex text-gray-700 flex-wrap px-36 pt-10 flex-col md:flex-row items-center md:justify-between'>
+      <div className='container mx-auto flex text-black flex-wrap px-36 pt-10 flex-col md:flex-row items-center md:justify-between'>
         <a
           href='#'
           className='logo flex title-font font-bold items-center text-black mb-4 md:mb-0'
@@ -25,19 +25,19 @@ const Header = () => {
           Company
         </a>
         <div className='md:my-auto md:mx-0 flex flex-wrap items-center justify-end'>
-          <a href='#' className='mr-5 hover:text-black font-semibold'>
+          <a href='#' className='mr-5 text-black font-semibold'>
             {' '}
             Documentation
           </a>
-          <a href='#' className='mr-5 hover:text-black font-semibold'>
+          <a href='#' className='mr-5 text-black font-semibold'>
             {' '}
             Pricing
           </a>
-          <a href='#' className='mr-5 hover:text-black font-semibold'>
+          <a href='#' className='mr-5 text-black font-semibold'>
             {' '}
             Sign up
           </a>
-          <a href='#' className='mr-5 hover:text-black font-semibold'>
+          <a href='#' className='mr-5 text-black font-semibold'>
             {' '}
             Sign in
           </a>
