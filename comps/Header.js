@@ -20,7 +20,7 @@ const Header = () => {
       <div className='container mx-auto flex text-black flex-wrap px-36 pt-10 flex-col md:flex-row items-center md:justify-between'>
         <a
           href='#'
-          className='logo flex title-font font-bold items-center text-black mb-4 md:mb-0'
+          className='logo flex title-font text-lg font-bold items-center text-black mb-4 md:mb-0'
         >
           Company
         </a>

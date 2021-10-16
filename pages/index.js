@@ -8,6 +8,7 @@ import Header from '../comps/Header';
 import Hero from '../comps/Hero';
 import Layout from '../comps/Layout';
 import Navbar from '../comps/Navbar';
+import Offset from '../comps/Offset';
 import Testimonials from '../comps/Testimonials';
 import styles from '../styles/Home.module.css';
 
@@ -33,6 +34,7 @@ export default function Home() {
       {/* Put cards here */}
       <Services />
       <Feature />
+      <Offset />
       <Testimonials />
       <Footer />
     </Layout>
