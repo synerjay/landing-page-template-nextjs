@@ -4,7 +4,7 @@ const GlassCard = () => {
   return (
     <div className='GlassDiv flex flex-col lg:flex-row bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 rounded-xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6'>
       <div className='flex-1 p-4 lg:p-6'>
-        <div className='text-lg text-white mb-8 flex items-center'>
+        <div className='text-lg text-gray-700 mb-8 flex items-center'>
           {/* <svg
           className='w-6 h-6'
           fill='currentColor'
@@ -20,8 +20,8 @@ const GlassCard = () => {
           <div className='ml-4 font-bold'>Take a hold of your life</div>
         </div>
         <div className='grid grid-rows-4 grid-cols-1 gap-4 md:grid-rows-2 md:grid-cols-2'>
-          <div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
-            <div className='text-white absolute right-2'>
+          <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
+            <div className='text-gray-700 absolute right-2'>
               {/* <svg
               className='w-10 h-10'
               fill='currentColor'
@@ -31,16 +31,16 @@ const GlassCard = () => {
               <path d='M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z'></path>
             </svg> */}
             </div>
-            <div className='text-white text-lg font-medium mb-2 mt-4'>
+            <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
               Front-End
             </div>
-            <div className='text-white font-normal'>
+            <div className='text-gray-700 font-normal'>
               Visual page, graphic pages, colors, button positions and
               interfaces Required skills are HTML ,CSS , JAVASCRIPT.
             </div>
           </div>
-          <div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
-            <div className='text-white absolute right-2'>
+          <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
+            <div className='text-gray-700 absolute right-2'>
               {/* <svg
               className='w-10 h-10'
               fill='currentColor'
@@ -54,16 +54,16 @@ const GlassCard = () => {
               ></path>
             </svg> */}
             </div>
-            <div className='text-white text-lg font-medium mb-2 mt-4'>
+            <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
               Back-End
             </div>
-            <div className='text-white font-normal'>
+            <div className='text-gray-700 font-normal'>
               Writing the actual code for the site, as it controls everything
               that happens behind the scenes of the site.
             </div>
           </div>
-          <div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
-            <div className='text-white absolute right-2'>
+          <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
+            <div className='text-gray-700 absolute right-2'>
               {/* <svg
               className='w-10 h-10'
               fill='currentColor'
@@ -77,16 +77,16 @@ const GlassCard = () => {
               ></path>
             </svg>{' '} */}
             </div>
-            <div className='text-white text-lg font-medium mb-2 mt-4'>
+            <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
               Full-Stack
             </div>
-            <div className='text-white font-normal'>
+            <div className='text-gray-700 font-normal'>
               He works on designing interfaces and writing code in the
               background. He has all the skills for both sides.
             </div>
           </div>
-          <div className='rounded-2xl bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 p-4 flex flex-col relative undefined'>
-            <div className='text-white absolute right-2'>
+          <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
+            <div className='text-gray-700 absolute right-2'>
               {/* <svg
               className='w-10 h-10'
               fill='currentColor'
@@ -100,8 +100,10 @@ const GlassCard = () => {
               ></path>
             </svg> */}
             </div>
-            <div className='text-white text-lg font-medium mb-2 mt-4'>UI</div>
-            <div className='text-white font-normal'>
+            <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
+              UI
+            </div>
+            <div className='text-gray-700 font-normal'>
               It is the design of the website interface and all its contents
               before starting programming and development.
             </div>

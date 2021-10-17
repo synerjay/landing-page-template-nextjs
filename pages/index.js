@@ -20,10 +20,6 @@ export default function Home() {
         <Header />
         <Hero />
         <div className='-mt-7'>
-          <div className='w-full text-center'>
-            <p className='text-sm tracking-widest text-white'>Subtitle</p>
-            <h1 className='font-bold text-5xl text-white'>Title</h1>
-          </div>
           <div className='flex flex-row justify-center items-center'>
             <GlassCard />
           </div>
