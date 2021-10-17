@@ -3,17 +3,17 @@ import React, { useEffect, useState } from 'react';
 const Header = () => {
   const [sticky, setSticky] = useState(false);
 
-  // useEffect(() => {
-  //   window.addEventListener('scroll', handleScroll);
-  // }, []);
+  useEffect(() => {
+    window.addEventListener('scroll', handleScroll);
+  }, []);
 
-  // const handleScroll = () => {
-  //   if (window.scrollY > 90) {
-  //     setSticky(true);
-  //   } else if (window.scrollY < 90) {
-  //     setSticky(false);
-  //   }
-  // };
+  const handleScroll = () => {
+    if (window.scrollY > 90) {
+      setSticky(true);
+    } else if (window.scrollY < 90) {
+      setSticky(false);
+    }
+  };
 
   return (
     <header className={`header${sticky ? ' sticky' : ''}`}>
