@@ -7,7 +7,7 @@ const FeatureBox = (props) => {
       {props.features.map((feature, key) =>
         feature.id % 2 !== 0 ? (
           <section key={key} className='text-black'>
-            <div className='container bg-gray-800  mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
+            <div className='container bg-gray-500  mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
               <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 '>
                 <img
                   className='object-cover object-center rounded'
@@ -31,7 +31,7 @@ const FeatureBox = (props) => {
           </section>
         ) : (
           <section key={key} className='text-black'>
-            <div className='container bg-gray-800 mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
+            <div className='container bg-gray-500 mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
               <div className='lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center'>
                 <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-black'>
                   {feature.title}
