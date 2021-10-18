@@ -16,7 +16,7 @@ const Services = () => {
     },
   ];
   return (
-    <section className='bg-white'>
+    <section className='bg-white mt-20'>
       <div className='container px-24 py-24 mx-auto flex flex-wrap'>
         <div className='flex flex-col text-center w-full mb-20'>
           <h2 className='text-xs text-black tracking-widest font-medium title-font mb-1'>

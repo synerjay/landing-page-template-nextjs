@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
-import Services from '../comps/Cards';
+import Services from '../comps/Services';
 import Feature from '../comps/Feature';
 import Footer from '../comps/Footer';
 import GlassCard from '../comps/GlassCard';
@@ -23,71 +23,8 @@ export default function Home() {
           <div className='flex flex-row justify-center items-center'>
             <GlassCard />
           </div>
-          {/* <div className='grid grid-cols-1 gap-4 sm:grid-cols-3 '>
-            <div className='p-2 sm:p-10 text-center cursor-pointer'>
-              <div className='py-16 max-w-sm rounded overflow-hidden shadow-lg hover:bg-white transition duration-500  bg-white'>
-                <div className='space-y-10'>
-                  <i className='fa fa-spa'></i>
-
-                  <div className='px-6 py-4'>
-                    <div className='space-y-5'>
-                      <div className='font-bold text-xl mb-2'>Spa</div>
-                      <p className='text-gray-700 text-base'>
-                        Todo tipo de masajes y técnicas
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='p-2 sm:p-10 text-center cursor-pointer text-white'>
-              <div className='py-16 max-w-sm rounded overflow-hidden shadow-lg bg-orange-500 hover:bg-orange-600 transition duration-500'>
-                <div className='space-y-10'>
-                  <i className='fa fa-head-side-mask'></i>
-                  <div className='px-6 py-4'>
-                    <div className='space-y-5'>
-                      <div className='font-bold text-xl mb-2'>Bioseguridad</div>
-                      <p className='text-base'>
-                        Altos estandares de bioseguridad
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div className='p-2 sm:p-10 text-center cursor-pointer translate-x-2'>
-              <div className='py-16 max-w-sm rounded overflow-hidden shadow-lg hover:bg-white transition duration-500 bg-white '>
-                <div className='space-y-10'>
-                  <i className='fa fa-swimmer'></i>
-
-                  <div className='px-6 py-4'>
-                    <div className='space-y-5'>
-                      <div className='font-bold text-xl mb-2'>Piscina</div>
-                      <p className='text-gray-700 text-base'>
-                        Piscina temperada
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </div>
       </div>
-      {/* Feature pictures */}
-      {/* <section className=''>
-        <div className='container mx-auto flex px-10 py-4 items-center justify-center flex-col'>
-          <img
-            className='lg:w-15/15 md:w-15/5 w-20/6 mb-10 object-cover object-center rounded'
-            alt='hero'
-            src=' https://dummyimage.com/1000x600/edf2f7/0f1631'
-          />
-        </div>
-      </section> */}
-      {/* <GlassCard /> */}
-      {/* Put cards here */}
       <Services />
       <Feature />
       <Offset />

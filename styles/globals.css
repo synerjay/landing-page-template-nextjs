@@ -14,7 +14,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
 
 body {
-  background: #f2f2f2;
+  background: #ffffff;
   color: #333;
   font-family: 'Nunito';
 }
@@ -37,11 +37,6 @@ body {
     background-position: 0% 50%;
   }
 }
-
-/* .GlassDiv {
-  top: 475px;
-  left: 8%;
-} */
 
 a {
   color: #333;
