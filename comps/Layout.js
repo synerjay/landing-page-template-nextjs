@@ -1,5 +1,3 @@
-import Footer from './Footer';
-import Navbar from './Navbar';
 import Head from 'next/head';
 
 const Layout = (props) => {
@@ -21,11 +19,3 @@ const Layout = (props) => {
 };
 
 export default Layout;
-
-{
-  /* <div className='content'>
-<Navbar />
-{children}
-<Footer />
-</div> */
-}
