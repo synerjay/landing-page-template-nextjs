@@ -17,8 +17,8 @@ const Services = () => {
   ];
   return (
     <section className='bg-white mt-20'>
-      <div className='container px-24 pt-24 mx-auto flex flex-wrap'>
-        <div className='flex flex-col text-center w-full mb-2'>
+      <div className='container px-24 pt-24 pb-10 mx-auto flex justify-center items-center flex-wrap'>
+        <div className='flex flex-col justify-center items-center text-center w-full mb-2'>
           <h2 className='text-xs text-black tracking-widest font-medium title-font mb-1'>
             TRUSTED BY THESE LEADING COMPANIES AND STARTUPS
           </h2>
@@ -26,33 +26,48 @@ const Services = () => {
             Tell them something about this cards.
           </h1> */}
         </div>
-        {/* <div className='flex flex-wrap -m-4'>
-          {services.map((service, key) => ( */}
-        <div
-          className='p-4 md:w-full'
-          // key={key}
-        >
-          <div className='flex rounded-lg h-full bg-gray-200 p-8 flex-col'>
-            <div className='flex items-center mb-3'>
+        <div className='p-4 md:w-2/3 '>
+          <div className='flex flex-row justify-around items-center rounded-lg h-full bg-gray-200 p-8'>
+            <img
+              className='h-16'
+              src='https://img.icons8.com/fluency/96/000000/stripe.png'
+            />
+            <img
+              className='h-16'
+              src='https://img.icons8.com/color/96/000000/ebay.png'
+            />
+            <img
+              className='h-16'
+              src='https://img.icons8.com/color/96/000000/amazon.png'
+            />
+            <img
+              className='h-16'
+              src='https://img.icons8.com/color/96/000000/heroku.png'
+            />
+            <img
+              className='h-16'
+              src='https://img.icons8.com/ios-filled/100/000000/bbc-logo.png'
+            />
+            <img
+              className='h-16'
+              src='https://img.icons8.com/fluency/96/000000/google-logo.png'
+            />
+            {/* <div className='flex items-center mb-3'>
               <h2 className='text-gray-700 text-lg title-font font-medium'>
-                {/* {service.title} */}
                 Lorem Ipsum
               </h2>
-            </div>
-            <div className='flex-grow'>
+            </div> */}
+            {/* <div className='flex-grow'>
               <p className='leading-relaxed text-gray-700 font-medium'>
-                {/* {service.desc} */}
                 Put logo icons here: Lorem Ipsum has been the industry's
                 standard dummy text ever since the 1500s
               </p>
               <a className='mt-3 text-gray-700 inline-flex items-center font-medium'>
                 Learn More »
               </a>
-            </div>
+            </div> */}
           </div>
         </div>
-        {/* ))}
-        </div> */}
       </div>
     </section>
   );
