@@ -29,27 +29,35 @@ const Services = () => {
         <div className='p-4 md:w-2/3 '>
           <div className='flex flex-row justify-around items-center rounded-lg h-full bg-gray-200 p-8'>
             <img
-              className='h-16'
+              className='h-10'
               src='https://img.icons8.com/fluency/96/000000/stripe.png'
             />
             <img
-              className='h-16'
+              className='h-10'
               src='https://img.icons8.com/color/96/000000/ebay.png'
             />
             <img
-              className='h-16'
+              className='h-10'
+              src='https://img.icons8.com/ios-filled/100/000000/nike.png'
+            />
+            <img
+              className='h-7'
               src='https://img.icons8.com/color/96/000000/amazon.png'
             />
             <img
-              className='h-16'
+              className='h-7'
               src='https://img.icons8.com/color/96/000000/heroku.png'
             />
             <img
-              className='h-16'
+              className='h-7'
+              src='https://img.icons8.com/ios-filled/50/000000/mac-os.png'
+            />
+            <img
+              className='h-10'
               src='https://img.icons8.com/ios-filled/100/000000/bbc-logo.png'
             />
             <img
-              className='h-16'
+              className='h-7'
               src='https://img.icons8.com/fluency/96/000000/google-logo.png'
             />
             {/* <div className='flex items-center mb-3'>
