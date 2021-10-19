@@ -16,8 +16,8 @@ const Services = () => {
     },
   ];
   return (
-    <section className='bg-white h-52  mt-72  '>
-      <div className='container px-24 pt-24 pb-10 mx-auto flex justify-center items-center flex-wrap'>
+    <section className='bg-white h-screen flex flex-col-reverse  '>
+      <div className='container px-24 pt-10 pb-36  mx-auto flex justify-center items-center flex-wrap'>
         <div className='flex flex-col justify-center items-center text-center w-full mb-2'>
           <h2 className='text-xs text-black tracking-widest font-medium title-font mb-3'>
             TRUSTED BY THESE LEADING COMPANIES

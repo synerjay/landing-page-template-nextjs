@@ -2,7 +2,7 @@ import React from 'react';
 
 const Pricing = () => {
   return (
-    <body class='font-sans bg-gray-100 mb-20'>
+    <div class='font-sans bg-gray-100 mb-20'>
       <div class='min-h-screen flex justify-center items-center'>
         <div class=''>
           <div class='text-center font-semibold'>
@@ -141,7 +141,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
-    </body>
+    </div>
   );
 };
 
