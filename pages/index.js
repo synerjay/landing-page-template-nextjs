@@ -20,7 +20,7 @@ export default function Home() {
       <div className='topSection'>
         <Header />
         <Hero />
-        <div className='-mt-7'>
+        <div className='-mt-7 '>
           <div className='flex flex-row justify-center items-center'>
             <GlassCard />
           </div>
@@ -28,7 +28,7 @@ export default function Home() {
       </div>
       <Services />
       <Feature />
-      <Pricing />
+      {/* <Pricing /> */}
       {/* <Offset /> */}
       <Testimonials />
       <Footer />
