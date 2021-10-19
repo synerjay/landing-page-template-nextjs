@@ -7,7 +7,7 @@ const GlassCard = () => {
         <img
           src='/images/landingimage.png'
           alt=''
-          className='img-fluid mx-auto d-block rounded-xl'
+          className='img-fluid mx-auto d-block rounded-xl shadow-lg'
         />
       </div>
       {/* <div className='flex-1 p-4 lg:p-6'>
