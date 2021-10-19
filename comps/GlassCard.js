@@ -3,7 +3,14 @@ import React from 'react';
 const GlassCard = () => {
   return (
     <div className='GlassDiv flex flex-col lg:flex-row bg-white backdrop-filter backdrop-blur-lg bg-opacity-20 rounded-xl overflow-hidden w-full max-w-5xl shadow-lg m-4 lg:m-6'>
-      <div className='flex-1 p-4 lg:p-6'>
+      <div className='p-6'>
+        <img
+          src='/images/landingimage.png'
+          alt=''
+          className='img-fluid mx-auto d-block rounded-xl'
+        />
+      </div>
+      {/* <div className='flex-1 p-4 lg:p-6'>
         <div className='text-lg text-gray-700 mb-8 flex items-center'>
           <svg
             className='w-6 h-6'
@@ -63,20 +70,7 @@ const GlassCard = () => {
             </div>
           </div>
           <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
-            <div className='text-gray-700 absolute right-2'>
-              <svg
-                className='w-10 h-10'
-                fill='currentColor'
-                viewBox='0 0 20 20'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  fillRule='evenodd'
-                  d='M11.3 1.046A1 1 0 0112 2v5h4a1 1 0 01.82 1.573l-7 10A1 1 0 018 18v-5H4a1 1 0 01-.82-1.573l7-10a1 1 0 011.12-.38z'
-                  clipRule='evenodd'
-                ></path>
-              </svg>{' '}
-            </div>
+            <div className='text-gray-700 absolute right-2'></div>
             <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
               Full-Stack
             </div>
@@ -86,20 +80,7 @@ const GlassCard = () => {
             </div>
           </div>
           <div className='rounded-2xl bg-white p-4 flex flex-col relative undefined'>
-            <div className='text-gray-700 absolute right-2'>
-              <svg
-                className='w-10 h-10'
-                fill='currentColor'
-                viewBox='0 0 20 20'
-                xmlns='http://www.w3.org/2000/svg'
-              >
-                <path
-                  fillRule='evenodd'
-                  d='M4 2a2 2 0 00-2 2v11a3 3 0 106 0V4a2 2 0 00-2-2H4zm1 14a1 1 0 100-2 1 1 0 000 2zm5-1.757l4.9-4.9a2 2 0 000-2.828L13.485 5.1a2 2 0 00-2.828 0L10 5.757v8.486zM16 18H9.071l6-6H16a2 2 0 012 2v2a2 2 0 01-2 2z'
-                  clipRule='evenodd'
-                ></path>
-              </svg>
-            </div>
+            <div className='text-gray-700 absolute right-2'></div>
             <div className='text-gray-700 text-lg font-medium mb-2 mt-4'>
               UI
             </div>
@@ -109,7 +90,7 @@ const GlassCard = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
