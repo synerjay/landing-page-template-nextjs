@@ -4,19 +4,14 @@ import GlassCard from './GlassCard';
 const FeatureBox = (props) => {
   return (
     <section className='bg-indigo-900 h-screen'>
-      <div className='w-1/2 grid grid-cols-3 gap-4'>
+      <div className='w-auto h-auto grid grid-cols-3 gap-1 pt-5 px-28'>
         {props.features.map((feature, key) => (
           <GlassCard key={key}>
-            <div className='lg:flex-grow md:w-1/6 flex flex-col md:items-start md:text-left items-center text-center p-10'>
-              <h1 className='title-font sm:text-4xl text-lg mb-4 font-medium text-white '>
+            <div className='lg:flex-grow w-auto flex flex-col md:items-start md:text-left items-center text-center p-4'>
+              <h1 className='text-lg font-medium text-white '>
                 {feature.title}
               </h1>
-              <p className='mb-8 leading-relaxed'>{feature.desc}</p>
-              <div className='flex justify-center'>
-                <button className='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
-                  Button
-                </button>
-              </div>
+              <p className='mb-8 leading-relaxed text-sm'>{feature.desc}</p>
             </div>
           </GlassCard>
         ))}
