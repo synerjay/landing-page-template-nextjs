@@ -3,22 +3,18 @@ import GlassCard from './GlassCard';
 
 const FeatureBox = (props) => {
   return (
-    <section className='bg-indigo-900 h-screen'>
-      <div className='w-auto h-auto grid grid-cols-3 gap-1 pt-5 px-28'>
-        {props.features.map((feature, key) => (
-          <GlassCard key={key}>
-            <div className='lg:flex-grow w-auto flex flex-col md:items-start md:text-left items-center text-center p-4'>
-              <h1 className='text-lg font-medium text-white '>
-                {feature.title}
-              </h1>
-              <p className='mb-8 text-white leading-relaxed text-sm'>
-                {feature.desc}
-              </p>
-            </div>
-          </GlassCard>
-        ))}
-      </div>
-    </section>
+    <div className='w-auto h-auto grid grid-cols-3 gap-1 pt-5 px-28'>
+      {props.features.map((feature, key) => (
+        <GlassCard key={key}>
+          <div className='lg:flex-grow w-auto flex flex-col md:items-start md:text-left items-center text-center p-4'>
+            <h1 className='text-lg font-medium text-white '>{feature.title}</h1>
+            <p className='mb-8 text-white leading-relaxed text-sm'>
+              {feature.desc}
+            </p>
+          </div>
+        </GlassCard>
+      ))}
+    </div>
   );
 };
 
@@ -68,9 +64,10 @@ const Feature = () => {
     },
   ];
   return (
-    <div>
+    <section className='bg-indigo-900 h-screen flex flex-col justify-center items-center'>
+      <h2 className='text-center text-2xl text-white'> Hello this is dog</h2>
       <FeatureBox features={features} />
-    </div>
+    </section>
   );
 };
 
