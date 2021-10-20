@@ -11,7 +11,9 @@ const FeatureBox = (props) => {
               <h1 className='text-lg font-medium text-white '>
                 {feature.title}
               </h1>
-              <p className='mb-8 leading-relaxed text-sm'>{feature.desc}</p>
+              <p className='mb-8 text-white leading-relaxed text-sm'>
+                {feature.desc}
+              </p>
             </div>
           </GlassCard>
         ))}
