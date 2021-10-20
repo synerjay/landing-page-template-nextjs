@@ -1,4 +1,5 @@
 import React from 'react';
+import GlassCard from './GlassCard';
 
 const FeatureBox = (props) => {
   return (
@@ -14,7 +15,8 @@ const FeatureBox = (props) => {
                   src='https://dummyimage.com/600x500/edf2f7/0f1631'
                 />
               </div>
-              <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'>
+              {/* <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'> */}
+              <GlassCard>
                 <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-black '>
                   {feature.title}
                 </h1>
@@ -24,7 +26,8 @@ const FeatureBox = (props) => {
                     Button
                   </button>
                 </div>
-              </div>
+              </GlassCard>
+              {/* </div> */}
             </div>
           </section>
         ) : (
@@ -75,7 +78,7 @@ const Feature = () => {
     {
       id: 3,
       img: './images/45.png',
-      title: 'The title for your feature goes here.',
+      title: 'The title for your featre goes here.',
       desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
       link: '/',
     },

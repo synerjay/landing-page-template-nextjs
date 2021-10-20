@@ -22,7 +22,15 @@ export default function Home() {
         <Hero />
         <div className='-mt-7 '>
           <div className='flex flex-row justify-center items-center'>
-            <GlassCard />
+            <GlassCard>
+              <div className='p-6'>
+                <img
+                  src='/images/landingimage.png'
+                  alt=''
+                  className='img-fluid mx-auto d-block rounded-xl shadow-lg'
+                />
+              </div>
+            </GlassCard>
           </div>
         </div>
       </div>
