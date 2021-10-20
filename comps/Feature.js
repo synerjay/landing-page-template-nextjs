@@ -6,8 +6,8 @@ const FeatureBox = (props) => {
     <>
       {props.features.map((feature, key) =>
         feature.id % 2 !== 0 ? (
-          <section key={key} className='text-black'>
-            <div className='container bg-gray-400   mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
+          <section key={key} className='text-white'>
+            <div className='container bg-indigo-900 mx-auto flex px-24 py-24 md:flex-row flex-col items-center'>
               <div className='lg:max-w-lg lg:w-full md:w-1/2 w-5/6 md:mb-0 mb-10 '>
                 <img
                   className='object-cover object-center rounded'
@@ -17,14 +17,16 @@ const FeatureBox = (props) => {
               </div>
               {/* <div className='lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center'> */}
               <GlassCard>
-                <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-black '>
-                  {feature.title}
-                </h1>
-                <p className='mb-8 leading-relaxed'>{feature.desc}</p>
-                <div className='flex justify-center'>
-                  <button className='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
-                    Button
-                  </button>
+                <div className='lg:flex-grow md:w-1/2 flex flex-col md:items-start md:text-left items-center text-center p-10'>
+                  <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium text-white '>
+                    {feature.title}
+                  </h1>
+                  <p className='mb-8 leading-relaxed'>{feature.desc}</p>
+                  <div className='flex justify-center'>
+                    <button className='border-2 border-black  text-black rounded-sm font-bold py-4 px-6 mr-2 flex items-center hover:bg-white hover:text-indigo-500 transition ease-in-out duration-700'>
+                      Button
+                    </button>
+                  </div>
                 </div>
               </GlassCard>
               {/* </div> */}
