@@ -64,8 +64,11 @@ const Feature = () => {
     },
   ];
   return (
-    <section className='bg-indigo-900 h-screen flex flex-col justify-center items-center'>
-      <h2 className='text-center text-2xl text-white'> Hello this is dog</h2>
+    <section className='bg-indigo-900 h-screen text-white flex flex-col gap-y-2 justify-center items-center p-3 pt-10'>
+      <h2 className='text-center text-4xl text-white'>
+        Show off your features here
+      </h2>
+      <p className='text-md'>Describe your product's features here</p>
       <FeatureBox features={features} />
     </section>
   );
