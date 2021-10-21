@@ -5,7 +5,7 @@ const Hero = () => {
     <section className='hero px-16 text-black'>
       <div className='container mx-auto flex px-5 py-24 items-center justify-center flex-col'>
         <div className='text-center lg:w-2/3 w-full'>
-          <h1 className='title-font sm:text-4xl text-3xl mb-4 font-medium	 text-black font-mono'>
+          <h1 className='mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font'>
             Here's to the Crazy Ones{' '}
           </h1>
           <p className='px-24 leading-relaxed mb-8 font-normal'>
