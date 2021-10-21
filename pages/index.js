@@ -12,6 +12,7 @@ import Offset from '../comps/Offset';
 import Testimonials from '../comps/Testimonials';
 import styles from '../styles/Home.module.css';
 import Pricing from '../comps/Pricing';
+import Tour from '../comps/Tour';
 
 export default function Home() {
   // in React a component MUST have a single FRAGMENT. it cannot have TWO elements side by side each other
@@ -36,6 +37,7 @@ export default function Home() {
       </div>
       <Services />
       <Feature />
+      <Tour />
       <Pricing />
       {/* <Offset /> */}
       <Testimonials />
