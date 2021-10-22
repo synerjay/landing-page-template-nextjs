@@ -14,11 +14,11 @@ const Testimonials = () => {
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h3>
             <div className='text-center mb-10'>
-              <span className='inline-block w-1 h-1 rounded-full bg-gray-800 ml-1'></span>
-              <span className='inline-block w-3 h-1 rounded-full bg-gray-800 ml-1'></span>
-              <span className='inline-block w-40 h-1 rounded-full bg-gray-800'></span>
-              <span className='inline-block w-3 h-1 rounded-full bg-gray-800 ml-1'></span>
-              <span className='inline-block w-1 h-1 rounded-full bg-gray-800 ml-1'></span>
+              <span className='inline-block w-1 h-1 rounded-full bg-gray-200 ml-1'></span>
+              <span className='inline-block w-3 h-1 rounded-full bg-gray-200 ml-1'></span>
+              <span className='inline-block w-40 h-1 rounded-full bg-gray-200'></span>
+              <span className='inline-block w-3 h-1 rounded-full bg-gray-200 ml-1'></span>
+              <span className='inline-block w-1 h-1 rounded-full bg-gray-200 ml-1'></span>
             </div>
           </div>
           <div className='-mx-3 md:flex items-start'>
