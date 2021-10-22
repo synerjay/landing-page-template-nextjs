@@ -2,7 +2,7 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className='min-w-screen min-h-screen flex items-center justify-center py-5 px-24'>
+    <div className='min-w-screen bg-gray-800  min-h-screen flex items-center justify-center py-5 px-24'>
       <div className='w-full px-5 py-16 md:py-24 text-gray-800'>
         <div className='w-full max-w-6xl mx-auto'>
           <div className='text-center max-w-xl mx-auto'>
