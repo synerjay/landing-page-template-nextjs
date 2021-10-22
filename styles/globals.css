@@ -38,6 +38,14 @@ body {
   }
 }
 
+.Testimonials {
+  background: #202020;
+}
+
+.TestiCard {
+  background: #282828;
+}
+
 a {
   color: #333;
   text-decoration: none;

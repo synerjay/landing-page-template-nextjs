@@ -2,11 +2,11 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className='min-w-screen bg-gray-800  min-h-screen flex items-center justify-center py-5 px-24'>
-      <div className='w-full px-5 py-16 md:py-24 text-gray-800'>
+    <div className='Testimonials min-w-screen min-h-screen flex items-center justify-center py-5 px-24'>
+      <div className='w-full px-5 py-16 md:py-24 text-gray-200'>
         <div className='w-full max-w-6xl mx-auto'>
           <div className='text-center max-w-xl mx-auto'>
-            <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-600'>
+            <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200'>
               What people <br />
               are saying.
             </h1>
@@ -23,13 +23,13 @@ const Testimonials = () => {
           </div>
           <div className='-mx-3 md:flex items-start'>
             <div className='px-3 md:w-1/3'>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=1' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Kenzie Edgar.
                     </h6>
                   </div>
@@ -54,13 +54,13 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=2' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Stevie Tifft.
                     </h6>
                   </div>
@@ -81,13 +81,13 @@ const Testimonials = () => {
               </div>
             </div>
             <div className='px-3 md:w-1/3'>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=3' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Tommie Ewart.
                     </h6>
                   </div>
@@ -105,13 +105,13 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=4' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Charlie Howse.
                     </h6>
                   </div>
@@ -133,13 +133,13 @@ const Testimonials = () => {
               </div>
             </div>
             <div className='px-3 md:w-1/3'>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=5' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Nevada Herbertson.
                     </h6>
                   </div>
@@ -160,13 +160,13 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-              <div className='w-full mx-auto rounded-lg bg-white border border-gray-200 p-5 text-gray-800 font-light mb-6'>
+              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=6' alt='' />
                   </div>
                   <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-600'>
+                    <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Kris Stanton.
                     </h6>
                   </div>
