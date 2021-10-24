@@ -7,9 +7,7 @@ const Footer = () => {
             <h4 className='text-3xl fonat-semibold text-gray-200'>
               Let's keep in touch!
             </h4>
-            <h5 className='text-lg mt-0 mb-2 text-gray-200'>
-              Find us on any of these platforms, we respond 1-2 business days.
-            </h5>
+            <h5 className='text-lg mt-0 mb-2 text-gray-200'>Company</h5>
             <div className='mt-6 lg:mb-0 mb-6'>
               <button
                 className='bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
