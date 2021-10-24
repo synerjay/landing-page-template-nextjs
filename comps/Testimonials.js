@@ -2,8 +2,8 @@ import React from 'react';
 
 const Testimonials = () => {
   return (
-    <div className='Testimonials min-w-screen min-h-screen flex items-center justify-center py-5 px-24'>
-      <div className='w-full px-5 py-16 md:py-24 text-gray-200'>
+    <div className='Testimonials pt-16 min-w-screen min-h-screen flex items-center justify-center py-2 px-24'>
+      <div className='w-full px-5 py-10 md:py-5 text-gray-200'>
         <div className='w-full max-w-6xl mx-auto'>
           <div className='text-center max-w-xl mx-auto'>
             <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200'>
