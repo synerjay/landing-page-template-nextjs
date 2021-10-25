@@ -169,6 +169,9 @@ const Testimonials = () => {
                     <h6 className='font-bold text-sm uppercase text-gray-200'>
                       Kris Stanton.
                     </h6>
+                    <backqoutes class='font-normal text-white text-sm tracking-wider'>
+                      CEO Workcation
+                    </backqoutes>
                   </div>
                 </div>
                 <div className='w-full'>
