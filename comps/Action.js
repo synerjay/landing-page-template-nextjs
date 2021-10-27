@@ -10,12 +10,20 @@ const Action = () => {
         <h2 class='font-normal tracking-wide text-lg text-white'>
           Here's some room for that final call to action
         </h2>
-        <a
-          href=''
-          class='bg-blue-500 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6'
-        >
-          Click here
-        </a>
+        <div className='flex justify-center items-center'>
+          <a
+            href=''
+            class='bg-gray-700 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-600 mr-6'
+          >
+            Get started for free
+          </a>
+          <a
+            href=''
+            class='bg-gray-100 rounded-full font-bold text-gray-900 px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-300 mr-6'
+          >
+            Get a Demo
+          </a>
+        </div>
       </div>
     </div>
   );
