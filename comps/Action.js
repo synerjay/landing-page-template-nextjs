@@ -8,9 +8,7 @@ const Action = () => {
           Ready to take the plunge?
         </h1>
         <h2 class='font-normal tracking-wide text-lg text-white'>
-          Workflow has completely transformed how we interact with our
-          customers. We've seen record bookings, higher customer satisfaction
-          and reduced churn
+          Here's some room for that finall call to action
         </h2>
         <div class='flex flex-col'>
           <backquotes class='font-normal text-white text-sm tracking-wider'>
