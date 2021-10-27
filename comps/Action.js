@@ -7,17 +7,9 @@ const Action = () => {
         <h1 class='text-center text-white font-bold text-4xl tracking-wide'>
           Ready to take the plunge?
         </h1>
-        <h2 class='font-normal tracking-wide text-lg text-white'>
+        <h2 class='font-normal text-center tracking-wide text-lg text-white'>
           Here's some room for that finall call to action
         </h2>
-        <div class='flex flex-col'>
-          <backquotes class='font-normal text-white text-sm tracking-wider'>
-            Marie Chivers{' '}
-          </backquotes>
-          <backqoutes class='font-normal text-white text-sm tracking-wider'>
-            CEO Workcation
-          </backqoutes>
-        </div>
       </div>
     </div>
   );
