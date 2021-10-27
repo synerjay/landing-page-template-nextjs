@@ -3,13 +3,19 @@ import React from 'react';
 const Action = () => {
   return (
     <div class='Testimonials py-2 flex flex-col justify-center mx-auto sm:py-12'>
-      <div class='h-auto py-10 px-10 w-2/3 bg-indigo-500 flex flex-col space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
-        <h1 class='text-center text-white font-bold text-4xl tracking-wide'>
+      <div class='h-auto py-10 px-10 w-2/3 bg-indigo-500 flex flex-col justify-center items-center space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
+        <h1 class='text-white font-bold text-4xl tracking-wide'>
           Ready to take the plunge?
         </h1>
-        <h2 class='font-normal text-center tracking-wide text-lg text-white'>
-          Here's some room for that finall call to action
+        <h2 class='font-normal tracking-wide text-lg text-white'>
+          Here's some room for that final call to action
         </h2>
+        <a
+          href=''
+          class='bg-blue-500 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-blue-600 mr-6'
+        >
+          Click here
+        </a>
       </div>
     </div>
   );
