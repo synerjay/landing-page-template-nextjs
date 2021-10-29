@@ -51,11 +51,11 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      img: './images/Group Members.png',
-      name: 'LOREM IPSUM',
+      img: 'https://i.pravatar.cc/100?img=2',
+      name: 'Stevie Tifft',
       title: 'CEO Workcation',
       quote:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sun ratione dolor exercitationem minima quas itaque saepe quas architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus nobis sint veritatis porro. Tenetur incidunt optio iure, atque deleniti dolorem, qu dignissimos laudantium perferendis rem aspernatur. Explicabo, aque assumenda.',
+        'Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.',
       link: '/',
     },
     {
@@ -127,31 +127,6 @@ const Testimonials = () => {
                 </div>
               </div>
               {/* Card End  */}
-              {/* <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
-                <div className='w-full flex mb-4 items-center'>
-                  <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
-                    <img src='https://i.pravatar.cc/100?img=2' alt='' />
-                  </div>
-                  <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-200'>
-                      Stevie Tifft.
-                    </h6>
-                  </div>
-                </div>
-                <div className='w-full'>
-                  <p className='text-sm leading-tight'>
-                    <span className='text-lg leading-none italic font-bold text-gray-400 mr-1'>
-                      "
-                    </span>
-                    Lorem ipsum, dolor sit amet, consectetur adipisicing elit.
-                    Dolore quod necessitatibus, labore sapiente, est,
-                    dignissimos ullam error ipsam sint quam tempora vel.
-                    <span className='text-lg leading-none italic font-bold text-gray-400 ml-1'>
-                      "
-                    </span>
-                  </p>
-                </div>
-              </div> */}
             </div>
             {/* End of Column 1 */}
             {/* Column 2 */}
