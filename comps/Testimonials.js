@@ -6,22 +6,15 @@ const Testimonials = () => {
       <div className='w-full px-5 py-10 md:py-5 text-gray-200'>
         <div className='w-full max-w-6xl mx-auto'>
           <div className='text-center max-w-xl mx-auto'>
-            <h1 className='text-6xl md:text-7xl font-bold mb-5 text-gray-200'>
-              What people <br />
-              are saying.
+            <h1 className='text-6xl md:text-5xl font-bold mb-5 text-gray-200'>
+              What people are saying.
             </h1>
             <h3 className='text-xl mb-5 font-light'>
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </h3>
-            <div className='text-center mb-10'>
-              <span className='inline-block w-1 h-1 rounded-full bg-gray-200 ml-1'></span>
-              <span className='inline-block w-3 h-1 rounded-full bg-gray-200 ml-1'></span>
-              <span className='inline-block w-40 h-1 rounded-full bg-gray-200'></span>
-              <span className='inline-block w-3 h-1 rounded-full bg-gray-200 ml-1'></span>
-              <span className='inline-block w-1 h-1 rounded-full bg-gray-200 ml-1'></span>
-            </div>
           </div>
           <div className='-mx-3 md:flex items-start'>
+            {/* Column 1 */}
             <div className='px-3 md:w-1/3'>
               <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
@@ -30,8 +23,11 @@ const Testimonials = () => {
                   </div>
                   <div className='flex-grow pl-3'>
                     <h6 className='font-bold text-sm uppercase text-gray-200'>
-                      Kenzie Edgar.
+                      Kenzie Edgar
                     </h6>
+                    <backqoutes class='font-normal text-white text-sm tracking-wider'>
+                      CEO Workcation
+                    </backqoutes>
                   </div>
                 </div>
                 <div className='w-full'>
@@ -80,6 +76,8 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            {/* End of Column 1 */}
+            {/* Column 2 */}
             <div className='px-3 md:w-1/3'>
               <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
@@ -132,6 +130,8 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            {/* End of Column 2 */}
+            {/* Column 3 */}
             <div className='px-3 md:w-1/3'>
               <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
@@ -188,6 +188,7 @@ const Testimonials = () => {
                 </div>
               </div>
             </div>
+            {/* End of Column 3 */}
           </div>
         </div>
       </div>
