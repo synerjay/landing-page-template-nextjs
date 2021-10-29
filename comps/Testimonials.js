@@ -4,17 +4,20 @@ const TestimonialCard = (props) => {
   return (
     <>
       {props.testimonials.map((testimonial, key) => (
-        <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
+        <div
+          key={key}
+          className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'
+        >
           <div className='w-full flex mb-4 items-center'>
             <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
-              <img src='https://i.pravatar.cc/100?img=1' alt='' />
+              <img src={testimonial.img} alt='' />
             </div>
             <div className='flex-grow pl-3'>
               <h6 className='font-bold text-sm uppercase text-gray-200'>
-                Kenzie Edgar
+                {testimonial.name}
               </h6>
               <backqoutes class='font-normal text-white text-sm tracking-wider'>
-                CEO Workcation
+                {testimonial.title}
               </backqoutes>
             </div>
           </div>
@@ -23,14 +26,7 @@ const TestimonialCard = (props) => {
               <span className='text-lg leading-none italic font-bold text-gray-400 mr-1'>
                 "
               </span>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt
-              ratione dolor exercitationem minima quas itaque saepe quasi
-              architecto vel! Accusantium, vero sint recusandae cum tempora nemo
-              commodi soluta deleniti. Lorem ipsum dolor sit, amet consectetur
-              adipisicing elit. Odio necessitatibus nobis sint veritatis porro.
-              Tenetur incidunt optio iure, atque deleniti dolorem, quo
-              dignissimos laudantium perferendis rem aspernatur. Explicabo,
-              eaque assumenda.
+              {testimonial.quote}
               <span className='text-lg leading-none italic font-bold text-gray-400 ml-1'>
                 "
               </span>
@@ -43,23 +39,36 @@ const TestimonialCard = (props) => {
 };
 
 const Testimonials = () => {
-  const features = [
+  const testimonials = [
     {
       id: 1,
-      img: './images/45.png',
-      title: 'LOREM IPSUM',
-      desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+      img: 'https://i.pravatar.cc/100?img=1',
+      name: 'Kenzie Edgar',
+      title: 'CEO Workcation',
+      quote:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus maxime, magni veritatis maiores vel nisi ab. Voluptatum ipsam, fuga eligendi sint quia ipsa cum corporis numquam nostrum illum facere. Odit.',
       link: '/',
     },
     {
       id: 2,
       img: './images/Group Members.png',
-      title: 'LOREM IPSUM',
-      desc: 'Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.',
+      name: 'LOREM IPSUM',
+      title: 'CEO Workcation',
+      quote:
+        'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sun ratione dolor exercitationem minima quas itaque saepe quas architecto vel! Accusantium, vero sint recusandae cum tempora nemo commodi soluta deleniti. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio necessitatibus nobis sint veritatis porro. Tenetur incidunt optio iure, atque deleniti dolorem, qu dignissimos laudantium perferendis rem aspernatur. Explicabo, aque assumenda.',
       link: '/',
     },
     {
       id: 3,
+      img: './images/Group Members.png',
+      name: 'LOREM IPSUM',
+      title: 'CEO Workcation',
+      quote:
+        'Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.',
+      link: '/',
+    },
+    {
+      id: 4,
       img: './images/45.png',
       title: 'LOREM IPSUM',
       desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
