@@ -58,22 +58,22 @@ const Testimonials = () => {
         'Lorem ipsum, dolor sit amet, consectetur adipisicing elit. Dolore quod necessitatibus, labore sapiente, est, dignissimos ullam error ipsam sint quam tempora vel.',
       link: '/',
     },
-    {
-      id: 3,
-      img: './images/Group Members.png',
-      name: 'LOREM IPSUM',
-      title: 'CEO Workcation',
-      quote:
-        'Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.',
-      link: '/',
-    },
-    {
-      id: 4,
-      img: './images/45.png',
-      title: 'LOREM IPSUM',
-      desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
-      link: '/',
-    },
+    // {
+    //   id: 3,
+    //   img: './images/Group Members.png',
+    //   name: 'LOREM IPSUM',
+    //   title: 'CEO Workcation',
+    //   quote:
+    //     'Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.',
+    //   link: '/',
+    // },
+    // {
+    //   id: 4,
+    //   img: './images/45.png',
+    //   title: 'LOREM IPSUM',
+    //   desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+    //   link: '/',
+    // },
   ];
 
   return (
@@ -92,7 +92,8 @@ const Testimonials = () => {
             {/* Column 1 */}
             <div className='px-3 md:w-1/3'>
               {/* Card */}
-              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
+              <TestimonialCard testimonials={testimonials} />
+              {/* <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=1' alt='' />
@@ -125,7 +126,7 @@ const Testimonials = () => {
                     </span>
                   </p>
                 </div>
-              </div>
+              </div> */}
               {/* Card End  */}
             </div>
             {/* End of Column 1 */}
