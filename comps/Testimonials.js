@@ -1,6 +1,72 @@
 import React from 'react';
 
+const TestimonialCard = (props) => {
+  return (
+    <>
+      {props.testimonials.map((testimonial, key) => (
+        <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
+          <div className='w-full flex mb-4 items-center'>
+            <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
+              <img src='https://i.pravatar.cc/100?img=1' alt='' />
+            </div>
+            <div className='flex-grow pl-3'>
+              <h6 className='font-bold text-sm uppercase text-gray-200'>
+                Kenzie Edgar
+              </h6>
+              <backqoutes class='font-normal text-white text-sm tracking-wider'>
+                CEO Workcation
+              </backqoutes>
+            </div>
+          </div>
+          <div className='w-full'>
+            <p className='text-sm leading-tight'>
+              <span className='text-lg leading-none italic font-bold text-gray-400 mr-1'>
+                "
+              </span>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos sunt
+              ratione dolor exercitationem minima quas itaque saepe quasi
+              architecto vel! Accusantium, vero sint recusandae cum tempora nemo
+              commodi soluta deleniti. Lorem ipsum dolor sit, amet consectetur
+              adipisicing elit. Odio necessitatibus nobis sint veritatis porro.
+              Tenetur incidunt optio iure, atque deleniti dolorem, quo
+              dignissimos laudantium perferendis rem aspernatur. Explicabo,
+              eaque assumenda.
+              <span className='text-lg leading-none italic font-bold text-gray-400 ml-1'>
+                "
+              </span>
+            </p>
+          </div>
+        </div>
+      ))}
+    </>
+  );
+};
+
 const Testimonials = () => {
+  const features = [
+    {
+      id: 1,
+      img: './images/45.png',
+      title: 'LOREM IPSUM',
+      desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+      link: '/',
+    },
+    {
+      id: 2,
+      img: './images/Group Members.png',
+      title: 'LOREM IPSUM',
+      desc: 'Sed perspiciatis unde omnis natus error voluptatem accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo excepturi sint occaecati cupiditate architecto.',
+      link: '/',
+    },
+    {
+      id: 3,
+      img: './images/45.png',
+      title: 'LOREM IPSUM',
+      desc: 'It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.',
+      link: '/',
+    },
+  ];
+
   return (
     <div className='Testimonials pt-16 min-w-screen min-h-screen flex items-center justify-center py-2 px-24'>
       <div className='w-full px-5 py-10 md:py-5 text-gray-200'>
@@ -16,6 +82,7 @@ const Testimonials = () => {
           <div className='-mx-3 md:flex items-start'>
             {/* Column 1 */}
             <div className='px-3 md:w-1/3'>
+              {/* Card */}
               <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
@@ -50,7 +117,8 @@ const Testimonials = () => {
                   </p>
                 </div>
               </div>
-              <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
+              {/* Card End  */}
+              {/* <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
                 <div className='w-full flex mb-4 items-center'>
                   <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
                     <img src='https://i.pravatar.cc/100?img=2' alt='' />
@@ -74,7 +142,7 @@ const Testimonials = () => {
                     </span>
                   </p>
                 </div>
-              </div>
+              </div> */}
             </div>
             {/* End of Column 1 */}
             {/* Column 2 */}
