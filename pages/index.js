@@ -7,8 +7,6 @@ import GlassCard from '../comps/GlassCard';
 import Header from '../comps/Header';
 import Hero from '../comps/Hero';
 import Layout from '../comps/Layout';
-import Navbar from '../comps/Navbar';
-import Offset from '../comps/Offset';
 import Testimonials from '../comps/Testimonials';
 import styles from '../styles/Home.module.css';
 import Pricing from '../comps/Pricing';
@@ -40,7 +38,6 @@ export default function Home() {
       <Feature />
       <Tour />
       <Pricing />
-      {/* <Offset /> */}
       <Testimonials />
       <Action />
       <Footer />
