@@ -33,14 +33,16 @@ const Hero = () => {
               </svg>
             </button>
             <p className='mt-2 text-sm'>React, Next.js + Tailwind</p>
-            <GlassCard>
-              <div className='p-5 '>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
-                earum enim labore nihil tempora distinctio molestiae odio omnis,
-                deserunt consequuntur, a animi quis ratione esse repellat iste
-                blanditiis aliquam inventore!
-              </div>
-            </GlassCard>
+            <div className='w-3/4 '>
+              <GlassCard>
+                <div className='p-5 w-auto text-md'>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                  Ullam earum enim labore nihil tempora distinctio molestiae
+                  odio omnis, deserunt consequuntur, a animi quis ratione esse
+                  repellat iste blanditiis aliquam inventore!
+                </div>
+              </GlassCard>
+            </div>
           </div>
         </div>
       </div>
