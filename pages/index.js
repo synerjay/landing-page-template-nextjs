@@ -22,7 +22,7 @@ export default function Home() {
       <div className='topSection'>
         <Header />
         <Hero />
-        <div className='mt-28  '>
+        <div className='-mt-16'>
           <div className='flex flex-row justify-center items-center'>
             <GlassCard>
               <div className='p-6'>

@@ -1,4 +1,5 @@
 import React from 'react';
+import GlassCard from './GlassCard';
 
 const Hero = () => {
   return (
@@ -13,7 +14,7 @@ const Hero = () => {
             Design is not just what it looks like and feels like. Design is how
             it works.
           </p>
-          <div className='flex justify-center'>
+          <div className='flex flex-col items-center justify-center'>
             <button className=' flex bg-gray-900 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-800 mr-6'>
               Make this my Landing Page{' '}
               <svg
@@ -31,6 +32,15 @@ const Hero = () => {
                 />
               </svg>
             </button>
+            <p className='mt-2 text-sm'>React, Next.js + Tailwind</p>
+            <GlassCard>
+              <div className='p-5 '>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam
+                earum enim labore nihil tempora distinctio molestiae odio omnis,
+                deserunt consequuntur, a animi quis ratione esse repellat iste
+                blanditiis aliquam inventore!
+              </div>
+            </GlassCard>
           </div>
         </div>
       </div>
