@@ -93,41 +93,6 @@ const Testimonials = () => {
             <div className='px-3 md:w-1/3'>
               {/* Card */}
               <TestimonialCard testimonials={testimonials} />
-              {/* <div className='w-full mx-auto rounded-lg TestiCard border border-gray-200 p-5 text-gray-200 font-light mb-6'>
-                <div className='w-full flex mb-4 items-center'>
-                  <div className='overflow-hidden rounded-full w-10 h-10 bg-gray-50 border border-gray-200'>
-                    <img src='https://i.pravatar.cc/100?img=1' alt='' />
-                  </div>
-                  <div className='flex-grow pl-3'>
-                    <h6 className='font-bold text-sm uppercase text-gray-200'>
-                      Kenzie Edgar
-                    </h6>
-                    <backqoutes class='font-normal text-white text-sm tracking-wider'>
-                      CEO Workcation
-                    </backqoutes>
-                  </div>
-                </div>
-                <div className='w-full'>
-                  <p className='text-sm leading-tight'>
-                    <span className='text-lg leading-none italic font-bold text-gray-400 mr-1'>
-                      "
-                    </span>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                    Quos sunt ratione dolor exercitationem minima quas itaque
-                    saepe quasi architecto vel! Accusantium, vero sint
-                    recusandae cum tempora nemo commodi soluta deleniti. Lorem
-                    ipsum dolor sit, amet consectetur adipisicing elit. Odio
-                    necessitatibus nobis sint veritatis porro. Tenetur incidunt
-                    optio iure, atque deleniti dolorem, quo dignissimos
-                    laudantium perferendis rem aspernatur. Explicabo, eaque
-                    assumenda.
-                    <span className='text-lg leading-none italic font-bold text-gray-400 ml-1'>
-                      "
-                    </span>
-                  </p>
-                </div>
-              </div> */}
-              {/* Card End  */}
             </div>
             {/* End of Column 1 */}
             {/* Column 2 */}
