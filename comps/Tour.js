@@ -52,8 +52,8 @@ const Tour = () => {
     },
   ];
   return (
-    <section className='text-blueGray-700 bg-white mt-20'>
-      <div className='container flex items-center gap-y-16 px-5 py-16 mx-auto flex-col md:px-36 '>
+    <section className='text-blueGray-700 bg-white'>
+      <div className='container flex items-center gap-y-16 px-5 py-10 mx-auto flex-col md:px-36 '>
         <TourBox tours={tours} />
       </div>
     </section>
