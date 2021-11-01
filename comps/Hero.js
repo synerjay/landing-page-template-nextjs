@@ -10,9 +10,8 @@ const Hero = () => {
             Here's to the Crazy Ones{' '}
           </h1>
           <p className='px-24 leading-relaxed mb-6 font-normal'>
-            Innovation distinguishes between a leader and a follower. <br />
-            Design is not just what it looks like and feels like. Design is how
-            it works.
+            The misfits. The rebels. The troublemakers. The round pegs <br /> in
+            the square holes. The ones who see things differently.
           </p>
           <div className='flex flex-col items-center justify-center'>
             <button className=' flex bg-gray-900 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-800 mr-6'>
@@ -33,13 +32,14 @@ const Hero = () => {
               </svg>
             </button>
             <p className='mt-2 text-sm'>React, Next.js + Tailwind</p>
-            <div className='w-3/4 '>
+            <div className='w-3/4 mb-16'>
               <GlassCard>
-                <div className='p-5 w-auto text-md'>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Ullam earum enim labore nihil tempora distinctio molestiae
-                  odio omnis, deserunt consequuntur, a animi quis ratione esse
-                  repellat iste blanditiis aliquam inventore!
+                <div className='p-5 w-auto text-sm text-center'>
+                  <p>
+                    "I remember the awe I felt when I first discovered sliced
+                    bread. Honestly, this is the best thing since then."
+                  </p>
+                  <p className='font-bold mt-2'> Tim Apple, CEO at Apple</p>
                 </div>
               </GlassCard>
             </div>
