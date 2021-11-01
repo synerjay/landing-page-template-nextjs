@@ -3,7 +3,7 @@ import React from 'react';
 const Action = () => {
   return (
     <div className='Testimonials py-2 flex flex-col justify-center mx-auto sm:py-12'>
-      <div className='h-auto py-10 px-10 w-2/3 bg-indigo-500 flex flex-col justify-center items-center space-y-5 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
+      <div className='h-auto py-10 px-10 w-2/3 bg-indigo-500 flex flex-col justify-center items-center space-y-7 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
         <h1 className='text-white font-bold text-4xl tracking-wide'>
           Ready to take the plunge?
         </h1>
@@ -24,11 +24,11 @@ const Action = () => {
             Get a Demo
           </a>
         </div>
-        <div className='flex justify-center items-center gap-x-10'>
+        <div className='flex text-white justify-center items-center gap-x-10 text-sm'>
           <span className='flex items-center gap-x-1'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
+              className='h-4 w-4'
               viewBox='0 0 20 20'
               fill='currentColor'
             >
@@ -43,7 +43,7 @@ const Action = () => {
           <span className='flex items-center gap-x-1'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
+              className='h-4 w-4'
               viewBox='0 0 20 20'
               fill='currentColor'
             >
@@ -58,7 +58,7 @@ const Action = () => {
           <span className='flex items-center gap-x-1'>
             <svg
               xmlns='http://www.w3.org/2000/svg'
-              className='h-5 w-5'
+              className='h-4 w-4'
               viewBox='0 0 20 20'
               fill='currentColor'
             >
