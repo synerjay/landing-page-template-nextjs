@@ -8,18 +8,18 @@ const Pricing = () => {
           <div className='text-center font-semibold'>
             <h1 className='text-5xl'>
               <span className='mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font'>
-                Flexible{' '}
+                Affordable, flexible pricing plans
               </span>
             </h1>
             <p className='pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full'>
-              Choose a plan that works best for you and
-              <br /> your team.
+              Our product is for you, whether you're a hobbyist, a team, or a
+              large company.
             </p>
           </div>
           <div className='pt-24 flex flex-row'>
             {/* <!-- Basic Card --> */}
             <div className='w-96 p-8 bg-white text-center rounded-3xl pr-16 shadow-xl'>
-              <h1 className='text-black font-semibold text-2xl'>Basic</h1>
+              <h1 className='text-black font-semibold text-2xl'>Starter</h1>
               <p className='pt-2 tracking-wide'>
                 <span className='text-gray-400 align-top'>$ </span>
                 <span className='text-3xl font-semibold'>10</span>
@@ -59,7 +59,7 @@ const Pricing = () => {
             </div>
             {/* <!-- StartUp Card --> */}
             <div className='w-80 p-8 bg-gray-900 text-center rounded-3xl text-white border-4 shadow-xl border-white transform scale-125'>
-              <h1 className='text-white font-semibold text-2xl'>Startup</h1>
+              <h1 className='text-white font-semibold text-2xl'>Scale</h1>
               <p className='pt-2 tracking-wide'>
                 <span className='text-gray-400 align-top'>$ </span>
                 <span className='text-3xl font-semibold'>24</span>
