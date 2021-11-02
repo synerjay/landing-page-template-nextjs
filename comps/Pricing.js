@@ -42,10 +42,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    Get started with{' '}
-                    <span className='text-black'>messaging</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   <svg
@@ -62,9 +59,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    Flexible <span className='text-black'>team meetings</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   <svg
@@ -81,9 +76,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    <span className='text-black'>5 TB</span> cloud storage
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
 
                 <a href='#' className=''>
@@ -120,9 +113,7 @@ const Pricing = () => {
                       clipRule='evenodd'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    All features in <span className='text-white'>Basic</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   {/* Put checkmark hero icon here */}
@@ -138,9 +129,7 @@ const Pricing = () => {
                       clipRule='evenodd'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    Flexible <span className='text-white'>call scheduling</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   {/* Put checkmark hero icon here */}
@@ -156,9 +145,7 @@ const Pricing = () => {
                       clipRule='evenodd'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    <span className='text-white'>15 TB</span> cloud storage
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
 
                 <a href='#' className=''>
@@ -202,9 +189,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    All features in <span className='text-black'>Startup</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   {/* Put hero icons here */}
@@ -222,9 +207,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    Growth <span className='text-black'>oriented</span>
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   {/* Put hero icons here */}
@@ -242,9 +225,7 @@ const Pricing = () => {
                       d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
                     />
                   </svg>
-                  <span className='pl-2'>
-                    <span className='text-black'>Unlimited</span> cloud storage
-                  </span>
+                  <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
                 </p>
 
                 <a href='#' className=''>
