@@ -27,21 +27,60 @@ const Pricing = () => {
               </p>
               <hr className='mt-4 border-1' />
               <div className='pt-8'>
-                <p className='font-semibold text-gray-400 text-left'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left flex'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     Get started with{' '}
                     <span className='text-black'>messaging</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     Flexible <span className='text-black'>team meetings</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     <span className='text-black'>5 TB</span> cloud storage
                   </span>
@@ -67,20 +106,56 @@ const Pricing = () => {
               </p>
               <hr className='mt-4 border-1 border-gray-600' />
               <div className='pt-8'>
-                <p className='font-semibold text-gray-400 text-left'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left flex'>
+                  {/* Put checkmark hero icon here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-5 w-5'
+                    viewBox='0 0 20 20'
+                    fill='currentColor'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z'
+                      clipRule='evenodd'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     All features in <span className='text-white'>Basic</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  {/* Put checkmark hero icon here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-5 w-5'
+                    viewBox='0 0 20 20'
+                    fill='currentColor'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z'
+                      clipRule='evenodd'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     Flexible <span className='text-white'>call scheduling</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  {/* Put checkmark hero icon here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-5 w-5'
+                    viewBox='0 0 20 20'
+                    fill='currentColor'
+                  >
+                    <path
+                      fillRule='evenodd'
+                      d='M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z'
+                      clipRule='evenodd'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     <span className='text-white'>15 TB</span> cloud storage
                   </span>
@@ -111,20 +186,62 @@ const Pricing = () => {
               </p>
               <hr className='mt-4 border-1' />
               <div className='pt-8'>
-                <p className='font-semibold text-gray-400 text-left'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left flex'>
+                  {/* Put hero icons here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     All features in <span className='text-black'>Startup</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  {/* Put hero icons here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     Growth <span className='text-black'>oriented</span>
                   </span>
                 </p>
-                <p className='font-semibold text-gray-400 text-left pt-5'>
-                  <span className='material-icons align-middle'>done</span>
+                <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                  {/* Put hero icons here */}
+                  <svg
+                    xmlns='http://www.w3.org/2000/svg'
+                    className='h-6 w-6'
+                    fill='none'
+                    viewBox='0 0 24 24'
+                    stroke='currentColor'
+                  >
+                    <path
+                      strokeLinecap='round'
+                      strokeLinejoin='round'
+                      strokeWidth={2}
+                      d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                    />
+                  </svg>
                   <span className='pl-2'>
                     <span className='text-black'>Unlimited</span> cloud storage
                   </span>
