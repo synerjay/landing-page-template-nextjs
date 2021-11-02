@@ -82,9 +82,9 @@ const Pricing = () => {
                 <a href='#' className=''>
                   <p className='w-full py-4 bg-blue-600 mt-8 rounded-xl text-white'>
                     <span className='font-medium'>Choose Plan</span>
-                    <span className='pl-2 material-icons align-middle text-sm'>
+                    {/* <span className='pl-2 material-icons align-middle text-sm'>
                       east
-                    </span>
+                    </span> */}
                   </p>
                 </a>
               </div>
@@ -151,9 +151,9 @@ const Pricing = () => {
                 <a href='#' className=''>
                   <p className='w-full py-4 bg-blue-600 mt-8 rounded-xl text-white'>
                     <span className='font-medium'>Choose Plan</span>
-                    <span className='pl-2 material-icons align-middle text-sm'>
+                    {/* <span className='pl-2 material-icons align-middle text-sm'>
                       east
-                    </span>
+                    </span> */}
                   </p>
                 </a>
               </div>
@@ -231,9 +231,9 @@ const Pricing = () => {
                 <a href='#' className=''>
                   <p className='w-full py-4 bg-blue-600 mt-8 rounded-xl text-white'>
                     <span className='font-medium'>Choose Plan</span>
-                    <span className='pl-2 material-icons align-middle text-sm'>
+                    {/* <span className='pl-2 material-icons align-middle text-sm'>
                       east
-                    </span>
+                    </span> */}
                   </p>
                 </a>
               </div>
