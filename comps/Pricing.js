@@ -26,11 +26,11 @@ const Pricing = () => {
                 <span className='text-gray-400 font-medium'>/ user</span>
               </p>
               <hr className='mt-4 border-1' />
-              <div className='pt-8'>
+              <div className='pt-8 text-sm'>
                 <p className='font-semibold text-gray-400 text-left flex'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
@@ -47,7 +47,7 @@ const Pricing = () => {
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
@@ -64,7 +64,7 @@ const Pricing = () => {
                 <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
@@ -166,12 +166,12 @@ const Pricing = () => {
                 <span className='text-gray-400 font-medium'>/ user</span>
               </p>
               <hr className='mt-4 border-1' />
-              <div className='pt-8'>
+              <div className='pt-8 text-sm'>
                 <p className='font-semibold text-gray-400 text-left flex'>
                   {/* Put hero icons here */}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
@@ -189,7 +189,7 @@ const Pricing = () => {
                   {/* Put hero icons here */}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
@@ -207,7 +207,7 @@ const Pricing = () => {
                   {/* Put hero icons here */}
                   <svg
                     xmlns='http://www.w3.org/2000/svg'
-                    className='h-6 w-6'
+                    className='h-5 w-5'
                     fill='none'
                     viewBox='0 0 24 24'
                     stroke='currentColor'
