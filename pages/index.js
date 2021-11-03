@@ -37,7 +37,7 @@ export default function Home() {
       <Services />
       <Feature />
       <Tour />
-      <Pricing />
+      {/* <Pricing /> */}
       <Testimonials />
       <Action />
       <Footer />

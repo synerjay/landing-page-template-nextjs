@@ -100,7 +100,7 @@ const Pricing = () => {
               </button>
             </div>
             {/* <!-- Scale Card --> */}
-            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white border-4 shadow-xl border-white transform scale-125 flex flex-col items-center justify-between'>
+            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-125 flex flex-col items-center justify-between'>
               <div className='absolute top-4 right-4'>
                 <p className='bg-green-600 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
                   Best value
