@@ -2,12 +2,12 @@ import React from 'react';
 
 const Pricing = () => {
   return (
-    <div className='bg-gray-100 mb-20'>
+    <div className='bg-gray-100'>
       <div className='min-h-screen flex justify-center items-center'>
         <div className=''>
           <div className='text-center font-semibold'>
             <h1 className='text-5xl'>
-              <span className='mb-8 text-2xl font-black tracking-tighter text-black md:text-5xl title-font'>
+              <span className='mb-5 text-2xl font-black tracking-tighter text-black md:text-5xl title-font'>
                 Affordable, flexible pricing plans
               </span>
             </h1>
@@ -82,7 +82,7 @@ const Pricing = () => {
                 </div>
               </div>
               <button className=' flex bg-black rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-800'>
-                Choose plan{' '}
+                Get Started{' '}
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='h-6 w-6'
@@ -101,11 +101,11 @@ const Pricing = () => {
             </div>
             {/* <!-- Scale Card --> */}
             <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white border-4 shadow-xl border-white transform scale-125 flex flex-col items-center justify-between'>
-              {/* <div className='absolute top-4 right-4'>
-                <p className='bg-blue-700 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
+              <div className='absolute top-4 right-4'>
+                <p className='bg-green-600 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
                   Best value
                 </p>
-              </div> */}
+              </div>
               <div className='mb-10'>
                 <h1 className='text-white font-semibold text-2xl'>Scale</h1>
                 <p className='pt-2 tracking-wide'>
@@ -118,7 +118,7 @@ const Pricing = () => {
                   <p className='font-semibold text-gray-400 text-left flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-5 w-5'
+                      className='h-5 w-5 text-green-400'
                       viewBox='0 0 20 20'
                       fill='currentColor'
                     >
@@ -134,7 +134,7 @@ const Pricing = () => {
                   <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-5 w-5'
+                      className='h-5 w-5 text-green-400'
                       viewBox='0 0 20 20'
                       fill='currentColor'
                     >
@@ -149,7 +149,7 @@ const Pricing = () => {
                   <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
-                      className='h-5 w-5'
+                      className='h-5 w-5 text-green-400'
                       viewBox='0 0 20 20'
                       fill='currentColor'
                     >
@@ -164,7 +164,7 @@ const Pricing = () => {
                 </div>
               </div>
               <button className=' flex bg-gray-100 rounded-full font-bold text-black px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-300'>
-                Choose plan{' '}
+                Get Started{' '}
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='h-6 w-6'
@@ -250,7 +250,7 @@ const Pricing = () => {
                 </div>
               </div>
               <button className=' flex bg-gray-900 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-800'>
-                Choose plan{' '}
+                Contact Us{' '}
                 <svg
                   xmlns='http://www.w3.org/2000/svg'
                   className='h-6 w-6'
