@@ -32,7 +32,7 @@ const Hero = () => {
               </svg>
             </button>
             <p className='mt-2 text-sm'>React, Next.js + Tailwind</p>
-            <div className='w-3/4 mb-16'>
+            <div className='w-full md:w-3/4 mb-16'>
               <GlassCard>
                 <div className='p-5 w-auto text-sm text-center'>
                   <p>
