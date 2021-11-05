@@ -3,10 +3,10 @@ import GlassCard from './GlassCard';
 
 const FeatureBox = (props) => {
   return (
-    <div className='w-auto h-auto grid grid-cols-3 gap-1 pt-5 px-28'>
+    <div className='w-full md:w-auto h-auto flex flex-col md:grid md:grid-cols-3 gap-1 pt-5 px-0 md:px-28'>
       {props.features.map((feature, key) => (
         <GlassCard key={key}>
-          <div className='lg:flex-grow w-auto flex flex-col gap-y-3 md:items-start md:text-left items-center text-center p-4'>
+          <div className='lg:flex-grow w-full md:w-auto flex flex-col gap-y-3 md:items-start md:text-left items-center text-center p-4'>
             <div
               className='h-6 w-6'
               dangerouslySetInnerHTML={{ __html: feature.svg }}
@@ -68,7 +68,7 @@ const Feature = () => {
     },
   ];
   return (
-    <section className='bg-indigo-900 h-screen text-white flex flex-col gap-y-2 justify-center items-center p-3 pt-10'>
+    <section className='bg-indigo-900 h-auto md:h-screen text-white flex flex-col gap-y-2 justify-center items-center p-3 pt-10'>
       <h2 className='text-center text-4xl font-bold text-white'>
         Highlight your favourite features!
       </h2>
