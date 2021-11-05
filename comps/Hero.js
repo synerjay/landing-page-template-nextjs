@@ -3,15 +3,15 @@ import GlassCard from './GlassCard';
 
 const Hero = () => {
   return (
-    <section className='hero px-16 text-black'>
+    <section className='hero px-0 md:px-16 text-black'>
       <div className='container mx-auto flex px-5 py-16 items-center justify-center flex-col'>
-        <div className='text-center lg:w-2/3 w-full'>
-          <h1 className='mb-1 text-2xl font-black tracking-tight text-black md:text-5xl title-font'>
+        <div className='text-center md:w-2/3 w-full'>
+          <h1 className='mb-1 text-3xl font-black tracking-tight text-black md:text-5xl title-font'>
             Here's to the Crazy Ones{' '}
           </h1>
-          <p className='px-24 leading-relaxed mb-6 font-normal'>
-            The misfits. The rebels. The troublemakers. The round pegs <br /> in
-            the square holes. The ones who see things differently.
+          <p className='px-0 md:px-24 leading-relaxed mb-6 font-normal w-full'>
+            The misfits. The rebels. The troublemakers. The round pegs in the
+            square holes. The ones who see things differently.
           </p>
           <div className='flex flex-col items-center justify-center'>
             <button className=' flex bg-gray-900 rounded-full font-bold text-white px-4 py-3 transition duration-300 ease-in-out hover:bg-gray-800 mr-6'>
