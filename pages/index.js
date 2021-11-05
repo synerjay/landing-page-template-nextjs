@@ -17,7 +17,7 @@ export default function Home() {
   // in React a component MUST have a single FRAGMENT. it cannot have TWO elements side by side each other
   return (
     <Layout pageTitle='Product Landing Page'>
-      <div className='topSection'>
+      <div className='topSection h-auto w-auto md:h-screen md:w-screen'>
         <Header />
         <Hero />
         <div className='-mt-16'>
