@@ -2,8 +2,8 @@ import React from 'react';
 
 const Action = () => {
   return (
-    <div className='Testimonials py-2 flex flex-col justify-center mx-auto sm:py-12'>
-      <div className='h-auto py-10 px-10 w-2/3 bg-indigo-500 flex flex-col justify-center items-center space-y-7 mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
+    <div className='Testimonials py-2 flex px-5 flex-col justify-center items-center mx-auto sm:py-12'>
+      <div className='h-auto py-7 md:py-10 px-7 md:px-10 w-full md:w-2/3 bg-indigo-500 flex flex-col justify-center items-center space-y-7 md:mx-auto rounded-3xl shadow-xl hover:rotate-1 transition-transform'>
         <h1 className='text-white font-bold text-4xl tracking-tight'>
           Ready to take the plunge?
         </h1>
