@@ -134,11 +134,11 @@ const Testimonials = () => {
   ];
 
   return (
-    <div className='Testimonials pt-16 min-w-screen min-h-screen flex items-center justify-center py-2 px-24'>
-      <div className='w-full px-5 py-10 md:py-5 text-gray-200'>
+    <div className='Testimonials pt-5 md:pt-16 min-w-screen min-h-screen flex items-center justify-center py-2 px-0 md:px-24'>
+      <div className='w-full px-5 py-5 md:py-10 text-gray-200'>
         <div className='w-full max-w-6xl mx-auto'>
           <div className='text-center max-w-xl mx-auto'>
-            <h1 className='text-6xl md:text-5xl font-bold mb-5 text-gray-200'>
+            <h1 className='text-3xl md:text-6xl font-bold mb-5 text-gray-200'>
               What people are saying.
             </h1>
             <h3 className='text-xl mb-5 font-light'>
