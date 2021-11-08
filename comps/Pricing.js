@@ -3,7 +3,7 @@ import React from 'react';
 const Pricing = () => {
   return (
     <div className='bg-gray-100'>
-      <div className='min-h-screen flex justify-center items-center'>
+      <div className='h-auto md:h-screen flex justify-center items-center'>
         <div className=''>
           <div className='text-center font-semibold'>
             <h1 className='text-5xl'>
@@ -11,16 +11,16 @@ const Pricing = () => {
                 Affordable, flexible pricing plans
               </span>
             </h1>
-            <p className='pt-6 text-xl text-gray-400 font-normal w-full px-8 md:w-full'>
+            <p className='pt-6 text-md md:text-xl text-gray-400 font-normal w-full px-8 md:w-full'>
               Our product is for you, whether you're a hobbyist, a team, or a
               large company.
             </p>
           </div>
-          <div className='pt-24 flex flex-row'>
+          <div className='mt-5 pt-0 md:pt-24 flex flex-col justify-center items-center md:flex-row'>
             {/* <!-- Basic Card --> */}
-            <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl mr-16 flex flex-col items-center justify-between'>
+            <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl mr-0 md:mr-16 flex flex-col items-center justify-between'>
               <div>
-                <h1 className='text-black font-semibold text-2xl'>Starter</h1>
+                <h1 className='text-black font-semibold text-2xl'>Basic</h1>
                 <p className='pt-2 tracking-wide'>
                   <span className='text-gray-400 align-top'>$ </span>
                   <span className='text-3xl font-semibold'>10</span>
@@ -100,7 +100,7 @@ const Pricing = () => {
               </button>
             </div>
             {/* <!-- Scale Card --> */}
-            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-125 flex flex-col items-center justify-between'>
+            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-100 md:scale-125 flex flex-col items-center justify-between'>
               <div className='absolute top-4 right-4'>
                 <p className='bg-green-600 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
                   Best value
@@ -182,7 +182,7 @@ const Pricing = () => {
               </button>
             </div>
             {/* <!-- Enterprise Card --> */}
-            <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl ml-16 flex flex-col items-center justify-between'>
+            <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl ml-0 md:ml-16 flex flex-col items-center justify-between'>
               <div>
                 <h1 className='text-black font-semibold text-2xl'>
                   Enterprise

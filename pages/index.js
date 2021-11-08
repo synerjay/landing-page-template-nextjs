@@ -1,5 +1,3 @@
-import Head from 'next/head';
-import Link from 'next/link';
 import Services from '../comps/Services';
 import Feature from '../comps/Feature';
 import Footer from '../comps/Footer';
@@ -37,7 +35,7 @@ export default function Home() {
       <Services />
       <Feature />
       <Tour />
-      {/* <Pricing /> */}
+      <Pricing />
       <Testimonials />
       <Action />
       <Footer />
