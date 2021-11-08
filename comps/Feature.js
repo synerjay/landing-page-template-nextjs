@@ -68,8 +68,8 @@ const Feature = () => {
     },
   ];
   return (
-    <section className='bg-indigo-900 h-auto md:h-screen text-white flex flex-col gap-y-2 justify-center items-center p-3 pt-10'>
-      <h2 className='text-center text-4xl font-bold text-white'>
+    <section className='bg-indigo-900 h-auto md:h-screen text-white flex flex-col gap-y-2 justify-center items-center p-3 pt-10 md:pt-0'>
+      <h2 className='text-center text-2xl md:text-4xl font-bold text-white'>
         Highlight your favourite features!
       </h2>
       <p className='text-md'>Describe your product's features here</p>
