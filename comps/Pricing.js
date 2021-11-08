@@ -124,7 +124,7 @@ const Pricing = () => {
                 </p>
               </div>
               <div className='mb-20'>
-                <h1 className='text-white font-semibold text-2xl'>Scale</h1>
+                <h1 className='text-white font-semibold text-2xl'>Value</h1>
                 <p className='pt-2 tracking-wide'>
                   <span className='text-gray-400 align-top'>$ </span>
                   <span className='text-3xl font-semibold'>24</span>

@@ -4,7 +4,10 @@ const TourBox = (props) => {
   return (
     <>
       {props.tours.map((tour, key) => (
-        <div className='flex flex-col items-start mb-16 text-left lg:flex-grow md:w-full lg:pr-24 md:pr-16 md:mb-0'>
+        <div
+          key={key}
+          className='flex flex-col items-start mb-16 text-left lg:flex-grow md:w-full lg:pr-24 md:pr-16 md:mb-0'
+        >
           <h2 className='mb-8 text-xs font-semibold tracking-widest text-black uppercase title-font'>
             {' '}
             Step {tour.id}

@@ -16,7 +16,7 @@ const TestimonialCard = (props) => {
               <h6 className='font-bold text-sm uppercase text-gray-200'>
                 {testimonial.name}
               </h6>
-              <backqoutes class='font-normal text-white text-sm tracking-wider'>
+              <backqoutes className='font-normal text-white text-sm tracking-wider'>
                 {testimonial.title}
               </backqoutes>
             </div>
