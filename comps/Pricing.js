@@ -16,10 +16,10 @@ const Pricing = () => {
               large company.
             </p>
           </div>
-          <div className='mt-5 pt-0 md:pt-24 flex flex-col justify-center items-center md:flex-row'>
+          <div className='mt-5 pt-0 md:pt-0 flex flex-col justify-center items-center md:flex-row'>
             {/* <!-- Basic Card --> */}
             <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl mr-0 md:mr-16 flex flex-col items-center justify-between'>
-              <div>
+              <div className='mb-20'>
                 <h1 className='text-black font-semibold text-2xl'>Basic</h1>
                 <p className='pt-2 tracking-wide'>
                   <span className='text-gray-400 align-top'>$ </span>
@@ -29,6 +29,23 @@ const Pricing = () => {
                 <hr className='mt-4 border-1' />
                 <div className='pt-8 text-sm'>
                   <p className='font-semibold text-gray-400 text-left flex'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='h-5 w-5'
+                      fill='none'
+                      viewBox='0 0 24 24'
+                      stroke='currentColor'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                      />
+                    </svg>
+                    <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
+                  </p>
+                  <p className='font-semibold text-gray-400 text-left pt-5 flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='h-5 w-5'
@@ -100,13 +117,13 @@ const Pricing = () => {
               </button>
             </div>
             {/* <!-- Scale Card --> */}
-            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-100 md:scale-125 flex flex-col items-center justify-between'>
+            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-100 md:scale-110 flex flex-col items-center justify-between'>
               <div className='absolute top-4 right-4'>
                 <p className='bg-green-600 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
                   Best value
                 </p>
               </div>
-              <div className='mb-10'>
+              <div className='mb-20'>
                 <h1 className='text-white font-semibold text-2xl'>Scale</h1>
                 <p className='pt-2 tracking-wide'>
                   <span className='text-gray-400 align-top'>$ </span>
@@ -183,7 +200,7 @@ const Pricing = () => {
             </div>
             {/* <!-- Enterprise Card --> */}
             <div className='w-80 p-8 bg-white text-center rounded-lg shadow-xl ml-0 md:ml-16 flex flex-col items-center justify-between'>
-              <div>
+              <div className='mb-20'>
                 <h1 className='text-black font-semibold text-2xl'>
                   Enterprise
                 </h1>
@@ -195,6 +212,24 @@ const Pricing = () => {
                 <hr className='mt-4 border-1' />
                 <div className='pt-8 text-sm'>
                   <p className='font-semibold text-gray-400 text-left flex'>
+                    <svg
+                      xmlns='http://www.w3.org/2000/svg'
+                      className='h-5 w-5'
+                      fill='none'
+                      viewBox='0 0 24 24'
+                      stroke='currentColor'
+                    >
+                      <path
+                        strokeLinecap='round'
+                        strokeLinejoin='round'
+                        strokeWidth={2}
+                        d='M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z'
+                      />
+                    </svg>
+                    <span className='pl-2'>Lorem ipsum, dolor sit amet</span>
+                  </p>
+                  <p className='font-semibold text-gray-400 text-left pt-5 flex'>
+                    {/* Put hero icons here */}
                     <svg
                       xmlns='http://www.w3.org/2000/svg'
                       className='h-5 w-5'
