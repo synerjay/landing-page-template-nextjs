@@ -1,10 +1,10 @@
 const Footer = () => {
   return (
-    <footer className='relative Testimonials pt-8 pb-6 px-24'>
+    <footer className='relative Testimonials pt-10 md:pt-8 pb-6 px-3 md:px-24'>
       <div className='container mx-auto px-4'>
         <div className='flex flex-wrap text-left lg:text-left'>
-          <div className='w-full lg:w-6/12 px-4'>
-            <h4 className='text-3xl fonat-semibold text-gray-200'>
+          <div className='w-full md:w-6/12 px-4'>
+            <h4 className='text-lg md:text-3xl fonat-semibold text-gray-200'>
               Let's keep in touch!
             </h4>
             <h5 className='text-lg mt-0 mb-2 text-gray-200'>Company</h5>
