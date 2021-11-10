@@ -24,7 +24,7 @@ const Header = () => {
         >
           Company
         </a>
-        <div className='md:my-auto md:mx-0 flex flex-wrap items-center justify-end'>
+        <div className='md:my-auto mx-0 md:mx-0 text-sm flex flex-wrap items-center justify-center md:justify-end'>
           <a href='#' className='mr-5 text-black font-semibold'>
             {' '}
             Documentation

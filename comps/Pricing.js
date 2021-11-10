@@ -116,8 +116,8 @@ const Pricing = () => {
                 </svg>
               </button>
             </div>
-            {/* <!-- Scale Card --> */}
-            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-100 md:scale-110 flex flex-col items-center justify-between'>
+            {/* <!-- Value Card --> */}
+            <div className='w-80 p-8 bg-gray-900 text-center rounded-lg text-white shadow-xl transform scale-100 md:scale-110  flex flex-col items-center justify-between'>
               <div className='absolute top-4 right-4'>
                 <p className='bg-green-600 font-semibold px-4 py-1 rounded-full uppercase text-xs'>
                   Best value
@@ -131,7 +131,7 @@ const Pricing = () => {
                   <span className='text-gray-400 font-medium'>/ user</span>
                 </p>
                 <hr className='mt-4 border-1 border-gray-600' />
-                <div className='pt-8'>
+                <div className='pt-8 text-sm'>
                   <p className='font-semibold text-gray-400 text-left flex'>
                     <svg
                       xmlns='http://www.w3.org/2000/svg'

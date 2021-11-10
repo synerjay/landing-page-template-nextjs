@@ -8,7 +8,7 @@ const Footer = () => {
               Let's keep in touch!
             </h4>
             <h5 className='text-lg mt-0 mb-2 text-gray-200'>Company</h5>
-            <div className='mt-6 lg:mb-0 mb-6'>
+            {/* <div className='mt-6 lg:mb-0 mb-6'>
               <button
                 className='bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2'
                 type='button'
@@ -33,7 +33,7 @@ const Footer = () => {
               >
                 <i className='fab fa-github'></i>
               </button>
-            </div>
+            </div> */}
           </div>
           <div className='w-full lg:w-6/12 px-4'>
             <div className='flex flex-wrap items-top mb-6'>
