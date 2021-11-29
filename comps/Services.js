@@ -1,20 +1,6 @@
 import React from 'react';
 
 const Services = () => {
-  // const services = [
-  //   {
-  //     title: 'Lorem Ipsum',
-  //     desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-  //   },
-  //   {
-  //     title: 'Lorem Ipsum',
-  //     desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-  //   },
-  //   {
-  //     title: 'Lorem Ipsum',
-  //     desc: "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s",
-  //   },
-  // ];
   return (
     <section className='bg-white h-auto md:h-screen flex flex-col-reverse  '>
       <div className='container px-3 md:px-24 pt-8 md:pt-20 pb-10 md:pb-20  md:mx-auto flex justify-center items-center flex-wrap'>
